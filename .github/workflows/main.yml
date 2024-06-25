@@ -14,4 +14,4 @@ jobs:
 
     - name: Build C Code
       run: |
-        find . -name '*.c' -print0 | xargs -0 -I {} gcc {} -o {}.out
+        find . -name '*.cpp' -print0 | xargs -0 -I {} gcc {} -o {}.out
